@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../dist/styles.css" />
   </head>
-  <body>
-    <div class="container"></div>
+  <body class="">
+    <div class="container">
+      <div class="main">
+        <div class="content">
+          <input
+            type="text"
+            id="search-input"
+            class="content__search-bar"
+            placeholder="City name"
+          />
+        </div>
+        <div class="content">
+          <h1 class="content__temperature">12°C</h1>
+        </div>
+        <div class="content">
+          <span class="content__details">Humidity 28%</span>
+          <span class="content__details">Wind 5.8km/h</span>
+          <span class="content__details">Sunny</span>
+        </div>
+      </div>
+    </div>
     <script src="./dist/script.js"></script>
   </body>
 </html>
