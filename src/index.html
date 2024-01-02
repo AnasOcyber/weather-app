@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="../dist/styles.css" />
   </head>
-  <body class="">
+  <body>
     <div class="container">
       <div class="main">
         <div class="content">
@@ -24,15 +24,15 @@
           />
         </div>
         <div class="content">
-          <h1 class="content__temperature">12°C</h1>
+          <h1 id="temperature" class="content__temperature"></h1>
         </div>
         <div class="content">
-          <span class="content__details">Humidity 28%</span>
-          <span class="content__details">Wind 5.8km/h</span>
-          <span class="content__details">Sunny</span>
+          <span id="humidity" class="content__details"></span>
+          <span id="wind" class="content__details"></span>
+          <span id="weather" class="content__details"></span>
         </div>
       </div>
     </div>
-    <script src="./dist/script.js"></script>
+    <script src="../dist/script.js"></script>
   </body>
 </html>
